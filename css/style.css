@@ -1,0 +1,44 @@
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* --- Components design --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/dropdown.css");
+@import url("components/card.css");
+@import url("components/badge.css");
+@import url("components/banner.css");
+@import url("components/tabs.css");
+@import url("components/product.css");
+@import url("components/navbar.css");
+@import url("components/quote-card.css");
+@import url("components/logo-card.css");
+@import url("components/landing-page-grid.css");
+@import url("components/footer.css");
+@import url("components/page-break.css");
+@import url("components/team-card.css");
+@import url("components/team-page-grid.css");
+@import url("components/form-style.css");
+/*@import url("components/list.css");/*
+
+/* --- Fonts --- */
+body {
+  font-family: "lato";
+  padding-bottom: 0px;
+  background-color: rgb(236, 242, 248);
+}
+h1, h2, h3 {
+  font-family: "lato";
+}
+
+
+@media screen and (max-width: 600px) 
+{
+
+html {
+width: fit-content;
+}
+}

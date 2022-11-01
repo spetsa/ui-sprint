@@ -1,0 +1,110 @@
+.form-card {
+    overflow: hidden;
+    background: white;
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+  }
+
+  .form-card form {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .form-card input {
+   border-radius: 5px;
+   border: 1px solid black;
+   margin-bottom: 12px;
+  }
+
+  .form-card  {
+    border-radius: 5px;
+   }
+
+
+
+  .form-card label {
+   }
+
+   .form-card-h1 {
+    margin-bottom: -33px;
+
+   }
+
+   .form-card-h2 {
+    margin-bottom: -10px;
+
+   }
+  
+  .form-card h1 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .form-card-title {
+    font-size: 13px;
+    opacity: .7;
+    margin: 0;
+  }
+
+  #form-card-description {
+    font-size: 13px;
+    opacity: 1;
+  }
+  
+  
+  .form-card-infos {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .form-card-infos {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    width: 40px;
+  }
+
+
+  .btn-form-card {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 12px;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .btn-form-card:hover {
+    opacity: .8;
+    text-decoration: none;
+    border-color: transparent;
+    background-color: #0070F3;
+    color: white;
+   }
+
+
+   @media screen and (max-width: 480px) {
+
+    .form-card {
+      overflow: hidden;
+      background: white;
+      /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+      height: 100%;
+      width: 50%;
+      border-radius: 5px;
+    }
+		
+  }
