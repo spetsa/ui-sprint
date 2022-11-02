@@ -24,7 +24,7 @@
   font-style: italic;
 }
 
- .quote-card-name {
+.quote-card-name {
   font-size: 18px;
   line-height: 1.4;
   margin-bottom: 0;
@@ -44,7 +44,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .quote-card h2 {
     font-size: 35px;
   }
@@ -56,8 +55,6 @@
 
   .quote-card-title {
     font-size: 30px !important;
-    opacity: .7;
+    opacity: 0.7;
   }
-
-
 }

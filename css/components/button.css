@@ -1,90 +1,85 @@
 .btn-medium {
-	color: black;
-	border: 1px solid black;
-	background-color: white;
-	border-radius: 50px;
-	padding: 3px 12px;
-	font-weight: lighter;
-	margin-top: 17px;
-	font-size: 16px;
-	text-decoration: none !important;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 3px 12px;
+  font-weight: lighter;
+  margin-top: 17px;
+  font-size: 16px;
+  text-decoration: none !important;
 }
 
 .btn-medium:hover {
-	text-decoration: none;
-	border-color: transparent;
-	background-color: #0070F3;
-	color: white;
-	text-decoration: none !important;
+  text-decoration: none;
+  border-color: transparent;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none !important;
 }
 
 .btn-twitter {
-	color: white;
-	border-radius: 3px;
-	padding: 10px 15px;
-	font-weight: bolder;
-	background-color: #D4312D;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-weight: bolder;
+  background-color: #d4312d;
 }
 
 .btn-twitter:hover {
-	text-decoration: none;
-	color: white;
-	background-color: red;
+  text-decoration: none;
+  color: white;
+  background-color: red;
 }
 
 .button-banner {
-	color: rgb(255, 255, 255) !important;
-	border: 2px solid rgb(255, 255, 255);
-	background-color: transparent;
-	border-radius: 50px;
-	padding: 3px 12px;
-	font-weight: lighter;
-	font-size: 24px;
-	display: flex;
-	margin: auto;
-	text-decoration: none;
-	margin-top: 24px;
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 3px 12px;
+  font-weight: lighter;
+  font-size: 24px;
+  display: flex;
+  margin: auto;
+  text-decoration: none;
+  margin-top: 24px;
 }
 
 .button-banner:hover {
-	text-decoration: none;
-	border-color: transparent;
-	background-color: #0070F3;
-	color: white;
-	text-decoration: none !important;
+  text-decoration: none;
+  border-color: transparent;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none !important;
 }
 
-a, a:visited, a:hover, a:active {
-    text-decoration: none;
-    color: inherit;
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
-
 
 @media screen and (max-width: 500px) {
-
-	.btn-medium {
-	font-size: 30px;
-	padding: 6px 17px;
-	margin-right: auto;
+  .btn-medium {
+    font-size: 30px;
+    padding: 6px 17px;
+    margin-right: auto;
     margin-left: auto;
     display: flex;
-	margin-top: 28px;
-	margin-bottom: 20px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+  }
 
-	}
-
-	.button-banner {
-		font-size: 30px;
-		padding: 6px 17px;
-		margin-right: auto;
-		margin-left: auto;
-		display: flex;
-		margin-top: 28px;
-		margin-bottom: 20px;
-
-	
-		}
-
-
-		
+  .button-banner {
+    font-size: 30px;
+    padding: 6px 17px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 20px;
+  }
 }

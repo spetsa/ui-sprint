@@ -47,9 +47,8 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    
   }
-  
+
   .card-product img {
     height: 350px !important;
     width: 400px !important;
@@ -57,7 +56,7 @@
     margin: auto;
     border-radius: 5px;
   }
-  
+
   .card-product h2 {
     font-size: 35px;
     font-weight: bold;
@@ -65,7 +64,7 @@
     padding-top: -10px;
     text-align: center;
   }
-  
+
   .card-product p {
     font-size: 24px;
     line-height: 1.4;
@@ -73,10 +72,10 @@
     margin-top: 8px;
     text-align: center;
   }
-  
+
   .card-product .card-product-infos {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
 }

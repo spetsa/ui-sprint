@@ -4,10 +4,9 @@
   margin: 0;
   box-shadow: rgba(156, 156, 156, 0.1) 0px -4px 10px 1px;
   background-color: white;
-  opacity: .9;
+  opacity: 0.9;
   margin-bottom: 0%;
   width: 100%;
-  
 }
 
 .footer ul {
@@ -16,7 +15,6 @@
   padding: 0;
   overflow: hidden;
 }
-
 
 .footer li {
   float: right;
@@ -45,10 +43,8 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .footer ul {
-  font-size: 22px !important;
-  padding-bottom: 10px;
+    font-size: 22px !important;
+    padding-bottom: 10px;
   }
-
 }
