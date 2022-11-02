@@ -63,7 +63,8 @@ a:active {
 }
 
 @media screen and (max-width: 500px) {
-  .btn-medium {
+
+  .button-banner {
     font-size: 30px;
     padding: 6px 17px;
     margin-right: auto;
@@ -72,8 +73,10 @@ a:active {
     margin-top: 28px;
     margin-bottom: 20px;
   }
+}
 
-  .button-banner {
+@media screen and (max-width: 600px) {
+  .btn-medium {
     font-size: 30px;
     padding: 6px 17px;
     margin-right: auto;
