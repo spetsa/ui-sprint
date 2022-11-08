@@ -14,18 +14,18 @@
       if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1045576541&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
       setTimeout(ldinsp, 0);
       })();
-      </script>
-      <!-- Inspectlet end -->
-      <!-- Google Analytics tag open -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LX28YETN3T"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    </script>
+    <!-- Inspectlet end -->
+    <!-- Google Analytics tag open -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LX28YETN3T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LX28YETN3T');
+    </script>
+    <!-- Google Analytics tag end-->
 
-        gtag('config', 'G-LX28YETN3T');
-      </script>
-       <!-- Google Analytics tag end-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -51,9 +51,24 @@
       </div>
     </div>
 
-
     <div class="team-page-flex-display">
 
+      <div class="card-trip">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>First Name</h2>
+            <p class="card-trip-title">Founder, CEO</p>
+            <div class="small-break"></div>
+              <p id="card-trip-description">
+                Educational and proffessional credentials.
+                What you excelled at that enabled you to build
+                a product that solves their problem. Something
+                that makes you human.
+              </p>
+          </div>
+        </div>
+      </div>
 
       <div class="card-trip">
         <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
@@ -62,31 +77,15 @@
             <h2>First Name</h2>
             <p class="card-trip-title">Founder, CEO</p>
             <div class="small-break"></div>
-              <p id="card-trip-description">Educational and proffessional credentials.
+              <p id="card-trip-description">
+                Educational and proffessional credentials.
                 What you excelled at that enabled you to build
-                  a product that solves their problem. Something
-                  that makes you human.</p>
+                a product that solves their problem. Something
+                that makes you human.
+              </p>
           </div>
         </div>
       </div>
-
-
-      <div class="card-trip">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-        <div class="card-trip-infos">
-          <div>
-            <h2>First Name</h2>
-            <p class="card-trip-title">Founder, CEO</p>
-            <div class="small-break"></div>
-              <p id="card-trip-description">Educational and proffessional credentials.
-                What you excelled at that enabled you to build
-                  a product that solves their problem. Something
-                  that makes you human.</p>
-          </div>
-        </div>
-      </div>
-
-
 
       <div class="card-trip">
         <img src="landing_images_unsplashed/good-faces-6ZpITFRMVFk-unsplash.jpg" />
@@ -95,11 +94,12 @@
             <h2>First Name</h2>
             <p class="card-trip-title">Founder, CEO</p>
             <div class="small-break"></div>
-              <p id="card-trip-description">Educational and proffessional credentials.
+              <p id="card-trip-description">
+                Educational and proffessional credentials.
                 What you excelled at that enabled you to build
-                  a product that solves their problem. Something
-                  that makes you human.
-                </p>
+                a product that solves their problem. Something
+                that makes you human.
+              </p>
           </div>
         </div>
       </div>
@@ -107,19 +107,6 @@
     </div>
 
   <div class="landing-page-grid">
-
-      <!-- <div class="quote-card">
-        <img src="landing_images_unsplashed/Headshot.jpeg" />
-        <div class="quote-card-infos">
-          <h2>
-            “WHy you solved this problem — framed in a way that your end user know they can trust you.”
-          </h2>
-          <p class="quote-card-name">Team Member With the most experience</p>
-          <div class="quote-card-title">
-            <p>Founder, CEO</p>
-          </div>
-        </div>
-    </div> -->
 
     <div class="logo-card">
       <div class="logo-card-infos logo-card-center">
@@ -132,10 +119,7 @@
       </div>
     </div>
 
-      
   </div>
-
-
 
     <div class="footer">
       <ul>
@@ -148,10 +132,5 @@
 
       </ul>
     </div>
-
-
-
   </body>
-
-
 </html>
