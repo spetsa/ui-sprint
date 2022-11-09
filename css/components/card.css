@@ -71,6 +71,8 @@
     margin-bottom: 5px;
     margin-top: 8px;
     text-align: center;
+    padding-right: 13px;
+    padding-left: 13px;
   }
 
   .card-product .card-product-infos {

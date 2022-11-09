@@ -22,6 +22,9 @@
   font-weight: bold;
   text-align: center;
   font-style: italic;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 38px;
 }
 
 .quote-card-name {
@@ -46,6 +49,7 @@
 @media screen and (max-width: 480px) {
   .quote-card h2 {
     font-size: 35px;
+    line-height: 35px;
   }
 
   .quote-card-name {
