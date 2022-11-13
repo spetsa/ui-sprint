@@ -35,7 +35,7 @@
   padding: 16px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .card-product {
     overflow: hidden;
     background: white;
