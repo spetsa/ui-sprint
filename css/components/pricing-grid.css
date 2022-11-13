@@ -1,6 +1,8 @@
 .team-page-flex-display {
   display: flex;
   justify-content: center;
+  align-items: center;
+  place-items: center;
   margin: 30px;
 }
 

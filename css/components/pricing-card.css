@@ -1,4 +1,4 @@
-.card-trip {
+.pricing-card {
   overflow: hidden;
   background: white;
   /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
@@ -10,25 +10,25 @@
   margin-bottom: 20px;
 }
 
-.card-trip > img {
+.pricing-card > img {
   height: 250px;
   width: 100%;
   object-fit: cover;
 }
 
-.card-trip h2 {
+.pricing-card h2 {
   font-size: 17px;
   font-weight: bold;
   margin: 0;
 }
 
-.card-trip-title {
+.pricing-card-title {
   font-size: 13px;
   opacity: .7;
-  margin-top: 4px;
+  margin: 0;
 }
 
-#card-trip-description {
+#pricing-card-description {
   font-size: 13px;
   opacity: 1;
 }
@@ -36,6 +36,10 @@
 
 .card-trip .card-trip-infos {
   padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
 }
 
 .card-trip-infos .card-trip-user {
@@ -46,8 +50,10 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .card-trip {
+    overflow: hidden;
+    background: white;
     /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
     min-width: 380px;
     max-width: 380px;
@@ -60,12 +66,13 @@
   .card-trip h2 {
     font-size: 30px;
     font-weight: bold;
+    margin: 0;
   }
   
   .card-trip-title {
     font-size: 24px;
     opacity: .7;
-    margin-top: 4px !important;
+    margin: 0;
   }
 
   #card-trip-description {

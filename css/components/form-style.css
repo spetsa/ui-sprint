@@ -42,9 +42,9 @@
 }
 
 .btn-form-card {
-  color: black;
-  border: 1px solid black;
-  background-color: white;
+  color: white;
+  border: 1px solid transparent !important;
+  background-color: #0070f3;
   border-radius: 50px;
   padding: 3px 12px;
   font-weight: lighter;
