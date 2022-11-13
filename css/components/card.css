@@ -4,7 +4,7 @@
   /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
   display: flex;
   align-items: center;
-  width: 600px;
+  width: 660px;
   border-radius: 6px;
   justify-content: space-between;
 }
@@ -12,9 +12,9 @@
 .card-product img {
   height: 250px !important;
   width: 310px !important;
-  object-fit: contain;
-  padding: max(11px);
-  border-radius: 15px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 16px;
 }
 
 .card-product h2 {
@@ -55,6 +55,9 @@
     display: flex;
     margin: auto;
     border-radius: 5px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+
   }
 
   .card-product h2 {

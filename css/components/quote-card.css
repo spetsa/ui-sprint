@@ -4,15 +4,16 @@
   /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
   display: grid;
   place-items: center;
-  width: 600px;
+  width: 660px;
   border-radius: 6px;
 }
 
 .quote-card img {
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
   border-radius: 250px;
   padding: 20px;
+  object-fit: cover;
 }
 
 .quote-card h2 {
@@ -40,7 +41,6 @@
 }
 
 .quote-card-infos {
-  padding: 10px;
   padding-bottom: 30px;
 }
 
