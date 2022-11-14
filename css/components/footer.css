@@ -9,6 +9,8 @@
   width: 100%;
 }
 
+
+
 .footer ul {
   list-style-type: none;
   margin: 0;
@@ -47,4 +49,16 @@
     font-size: 22px !important;
     padding-bottom: 10px;
   }
+
+  .footer {
+    margin-top: 100px;
+  }
+}
+
+@media screen and ( max-height: 900px) {
+
+  .footer {
+    margin-top: 100px;
+  }
+
 }
