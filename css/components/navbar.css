@@ -66,12 +66,18 @@
 
 #logo {
   float: left;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+
 }
 
 #logo a:hover {
   float: left;
   outline: none;
 }
+
 
 @media screen and (max-width: 480px) {
   .navbar ul {
@@ -80,5 +86,9 @@
   }
   .navbar li a {
     margin-top: 8px;
+  }
+
+  #logo {
+    top: 8px;
   }
 }
